@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ürün İşlemleri"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edtUrunAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ürün Adı Giriniz"
+        android:padding="15dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/edtStok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stok Adedi"
+        android:inputType="number"
+        android:padding="15dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/edtFiyat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Birim Fiyat"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnKaydet"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="KAYDET"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnGeri"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="VAZGEÇ / GERİ DÖN"
+        android:backgroundTint="#757575"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

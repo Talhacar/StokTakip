@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ÜRÜN DETAYI"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#888888"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/viewUrunAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ürün Adı"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/viewStokDurum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stok: 0"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:background="#EFEFEF"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/viewToplamDeger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toplam Değer: 0.0 TL"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:padding="15dp"
+        android:background="#E8F5E9"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnDuzenle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="BİLGİLERİ DÜZENLE"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnSil"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ÜRÜNÜ SİL"
+        android:backgroundTint="#D32F2F"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnGeri"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="GERİ DÖN"
+        android:backgroundTint="#757575"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
