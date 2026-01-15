@@ -23,7 +23,6 @@ class DetayActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.viewStokDurum).text = "Stok: $adet Adet"
         findViewById<TextView>(R.id.viewToplamDeger).text = "Toplam: ${adet * fiyat} TL"
 
-        // GERİ BUTONU İŞLEVİ
         findViewById<Button>(R.id.btnGeri).setOnClickListener {
             finish()
         }

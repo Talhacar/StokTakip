@@ -18,7 +18,7 @@ class EkleActivity : AppCompatActivity() {
         val edtStok = findViewById<EditText>(R.id.edtStok)
         val edtFiyat = findViewById<EditText>(R.id.edtFiyat)
         val btnKaydet = findViewById<Button>(R.id.btnKaydet)
-        val btnGeri = findViewById<Button>(R.id.btnGeri) // Geri butonu tanımlandı
+        val btnGeri = findViewById<Button>(R.id.btnGeri)
 
         btnGeri.setOnClickListener {
             finish()
